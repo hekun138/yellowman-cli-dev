@@ -1,6 +1,6 @@
 {
   "name": "@yellowman-cli-dev/utils",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "description": "yellowman-cli-dev utils",
   "author": "hekun <418730859@qq.com>",
   "homepage": "",
@@ -19,5 +19,5 @@
   "scripts": {
     "test": "node ./__tests__/utils.test.js"
   },
-  "gitHead": "9e8ecc52678110d1f9dcaf93bd32d25ec74d545e"
+  "gitHead": "6a8da08d45b6325fca1595eb1ca4fb3c874596b9"
 }
