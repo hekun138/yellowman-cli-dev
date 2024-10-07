@@ -1,0 +1,22 @@
+{
+  "name": "@yellowman-cli-dev/utils",
+  "version": "1.0.0",
+  "description": "yellowman-cli-dev utils",
+  "author": "hekun <418730859@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/utils.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com"
+  },
+  "scripts": {
+    "test": "node ./__tests__/utils.test.js"
+  }
+}
