@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@imooc-cli/utils": "^1.1.4",
-    "@yellowman-cli-dev/utils": "^1.0.4",
+    "@yellowman-cli-dev/utils": "^1.0.5",
     "lodash": "^4.17.21"
   },
   "gitHead": "6a8da08d45b6325fca1595eb1ca4fb3c874596b9"
