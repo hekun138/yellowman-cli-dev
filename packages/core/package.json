@@ -1,6 +1,6 @@
 {
   "name": "@yellowman-cli-dev/core",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "yellowman-cli-dev core",
   "author": "hekun <418730859@qq.com>",
   "homepage": "",
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@imooc-cli/utils": "^1.1.4",
-    "@yellowman-cli-dev/utils": "^1.0.1",
+    "@yellowman-cli-dev/utils": "^1.0.2",
     "lodash": "^4.17.21"
   }
 }
