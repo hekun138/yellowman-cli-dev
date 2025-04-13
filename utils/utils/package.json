@@ -19,5 +19,9 @@
   "scripts": {
     "test": "node ./__tests__/utils.test.js"
   },
-  "gitHead": "74b15ec1ff57423b8df1c73f5e2b2a71391eeb09"
+  "gitHead": "74b15ec1ff57423b8df1c73f5e2b2a71391eeb09",
+  "type": "module",
+  "dependencies": {
+    "cli-spinner": "^0.2.10"
+  }
 }

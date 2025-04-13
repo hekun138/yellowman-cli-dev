@@ -1,0 +1,38 @@
+{
+  "name": "@yellowman-cli-dev/package",
+  "version": "1.0.0",
+  "description": "yellowman-cli-dev npm modules",
+  "author": "hekun <418730859@qq.com>",
+  "homepage": "https://github.com/hekun138/yellowman-cli-dev#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hekun138/yellowman-cli-dev.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@yellowman-cli-dev/package.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/hekun138/yellowman-cli-dev/issues"
+  },
+  "type": "module",
+  "dependencies": {
+    "@yellowman-cli-dev/format-path": "^1.0.0",
+    "@yellowman-cli-dev/get-npm-info": "^1.0.7",
+    "@yellowman-cli-dev/utils": "^1.0.7",
+    "fs-extra": "^11.3.0",
+    "npminstall": "^7.12.0",
+    "path-exists": "^5.0.0"
+  }
+}

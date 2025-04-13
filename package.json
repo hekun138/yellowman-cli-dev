@@ -9,12 +9,21 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "dependencies": {},
+  "dependencies": {
+    "@yellowman-cli-dev/exec": "^1.0.0",
+    "commander": "^13.1.0",
+    "dotenv": "^16.4.5",
+    "import-local": "^3.2.0",
+    "pkg-dir": "^8.0.0"
+  },
   "devDependencies": {
     "lerna": "^8.1.8"
   },
-  "private": true,
   "workspaces": [
-    "packages/*"
-  ]
+    "utils/*",
+    "core/*",
+    "commands/*",
+    "models/*"
+  ],
+  "type": "module"
 }

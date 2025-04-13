@@ -1,0 +1,32 @@
+{
+  "name": "@yellowman-cli-dev/log",
+  "version": "1.0.7",
+  "description": "yellowman-cli-dev log",
+  "author": "hekun <418730859@qq.com>",
+  "homepage": "https://github.com/hekun138/yellowman-cli-dev#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hekun138/yellowman-cli-dev.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@yellowman-cli-dev/log.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/hekun138/yellowman-cli-dev/issues"
+  },
+  "dependencies": {
+    "npmlog": "^7.0.1"
+  },
+  "type": "module"
+}
